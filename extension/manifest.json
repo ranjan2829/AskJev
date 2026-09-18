@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AskJev",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Jev autopilot for any website — plus a guard on irreversible clicks. Connect Claude/Cursor via MCP agent bridge.",
   "permissions": [
     "storage",

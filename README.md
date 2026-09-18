@@ -10,7 +10,7 @@ Built with [TypeSafe System One](https://typesafe.ai) — page decisions use Jev
 
 ## Setup
 
-1. **Download `askjev-1.7.2.mcpb`** from [Releases](https://github.com/ranjan2829/AskJev/releases) and **double-click it**. Claude Desktop opens its install dialog.
+1. **Download `askjev-1.7.3.mcpb`** from [Releases](https://github.com/ranjan2829/AskJev/releases) and **double-click it**. Claude Desktop opens its install dialog.
 2. **Paste your TypeSafe API key** in that dialog → **Install**.
 3. **Chat:** `open example.com and click More information`
 
@@ -118,6 +118,6 @@ Options button selects it today — swap the `args` by hand if you need it.
 
 ## Version
 
-**1.7.2** — Correctness pass: System One used as documented (JSON state, structured criteria, retries), Windows browser detection fixed, Guard fails closed, Autopilot stops when stuck.
+**1.7.3** — Never open the user's real browser profile (Playwright persistent-context cookie wipe); refuse ASKJEV_PROFILE_DIR when it resolves to a real profile; Guard treats sign-out as irreversible. Ships #42 on top of 1.7.2.
 
 MIT · [ranjan2829/AskJev](https://github.com/ranjan2829/AskJev)

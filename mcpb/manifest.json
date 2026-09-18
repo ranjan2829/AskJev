@@ -2,7 +2,7 @@
   "manifest_version": "0.3",
   "name": "askjev-mcp",
   "display_name": "AskJev",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Let Claude drive your browser in plain English. TypeSafe Jev decides each click; irreversible actions are frozen.",
   "long_description": "AskJev lets Claude open sites, click, type and fill forms for you — you just talk.\n\nSetup is this screen:\n\n1. Paste your TypeSafe API key below (get one at https://typesafe.ai).\n2. Click Install.\n\nThat is the whole setup. No terminal, no scripts, no ports to paste. AskJev opens Brave (or Chrome) itself when Claude needs it.\n\nEvery on-page decision comes from TypeSafe Jev System One — not from Claude guessing. Anything that looks irreversible (pay, delete, send, publish, deploy) is stopped and handed back to you.\n\nOptional: the AskJev browser extension adds the same Guard to your OWN browsing. It is not needed for Claude to drive the browser.",
   "author": {

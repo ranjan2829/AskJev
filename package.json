@@ -1,6 +1,6 @@
 {
   "name": "askjev",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "private": true,
   "description": "AskJev \u2014 Jev autopilot + irreversible-click guard, with MCP agent bridge for Claude/Cursor (TypeSafe System One)",
   "scripts": {
